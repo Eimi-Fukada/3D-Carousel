@@ -41,9 +41,11 @@ img {
     justify-content: center;
     align-items: center;
     /* 通过html5的-webkit-box-reflect来做倒影 */
-    /* box-reflect属性值有：dirrection-方向:above向上，below向下，left向左，right向右。
-    offset距离：可以是数值，也可以是百分比： mask-box-image设置倒影的遮罩图像：（1）url（2）linear-gradient线性渐变创建遮罩图像。（3）repeating-linear-gradient重复线性渐变创建遮罩图像。（4）repeating-url重复径向径向渐变创建遮罩图像。
- */
+    /* 
+    box-reflect属性值有：dirrection-方向:above向上，below向下，left向左，right向右。
+    offset距离：可以是数值，也可以是百分比。
+    mask-box-image设置倒影的遮罩图像：linear-gradient线性渐变创建遮罩图像。
+    */
     -webkit-box-reflect: below 15px linear-gradient(transparent 10%, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
 }
 
